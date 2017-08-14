@@ -19,6 +19,14 @@
     <sprites name="Spawners">
       <sprite>sprites\spr_PlayerSpawnpoint</sprite>
     </sprites>
+    <sprites name="Attacks">
+      <sprites name="Melee">
+        <sprite>sprites\spr_Melee</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="UI">
+      <sprite>sprites\spr_Cursor</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Tilesheets">
@@ -34,6 +42,7 @@
     <objects name="Colliders">
       <objects name="Basic">
         <object>objects\obj_Collider</object>
+        <object>objects\obj_DeathPoint</object>
       </objects>
     </objects>
     <objects name="Characters">
@@ -42,6 +51,15 @@
     <objects name="Spawners">
       <object>objects\obj_PlayerSpawnpoint</object>
     </objects>
+    <objects name="Attacks">
+      <objects name="Melee">
+        <object>objects\obj_Melee</object>
+      </objects>
+    </objects>
+    <objects name="UI">
+      <object>objects\obj_Cursor</object>
+    </objects>
+    <object>objects\obj_UI</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomStart</room>
